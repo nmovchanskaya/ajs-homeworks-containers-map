@@ -12,3 +12,6 @@ export default class ErrorRepository {
     return 'Unknown error';
   }
 }
+
+const repo = new ErrorRepository();
+const res = repo.translate(235);
